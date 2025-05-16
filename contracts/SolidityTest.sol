@@ -10,4 +10,5 @@ contract SolidityTest {
         uint256 result = a + b;
         return result; // 访问局部变量
     }
+    
 }
