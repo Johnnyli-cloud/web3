@@ -12,7 +12,14 @@
 			},
 			{
 				"inputs": [],
-				"name": "getResult",
+				"name": "addValue",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTokenBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -20,7 +27,20 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -37,7 +57,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/PartTemp.sol": "PartTemp"
+			"contracts/Value.sol": "Value"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -51,12 +71,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/PartTemp.sol": {
-			"keccak256": "0x49ee00a5c7a55c9a4d09e1c392a9600d4e28c6c8c78fc945e303bb0b58a9a971",
+		"contracts/Value.sol": {
+			"keccak256": "0xe72a40a8512c326a663ef26572175ea15221f891bfc020c4e9bc0cbdcd6352b3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bd6b371771a7bb2363e0f959b3f67c40167aa50f2bd33efbfe54472193ad0bfc",
-				"dweb:/ipfs/QmNTTYXDPZbCetRxHs11VAp1L1uS8d4QjFSBmmha8yUtRE"
+				"bzz-raw://fd386b641b28eefdb471afd29aa534a38df2eba40efc450d56cd200991361a88",
+				"dweb:/ipfs/QmXj7UZYTT7ajGhJbxSBtjW9Nqs5GbntS7cQ14WS7qrFb4"
 			]
 		}
 	},
