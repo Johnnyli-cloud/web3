@@ -7,7 +7,7 @@ contract Value {
     uint256 public tokenBalance;
 
     constructor(){
-        tokenBalance = 0;
+        tokenBalance = 10;
         
     }
     function addValue() payable public {
